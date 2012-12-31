@@ -1,0 +1,16 @@
+.repl_history
+build
+tags
+resources/*.nib
+resources/*.momd
+resources/*.storyboardc
+resources/map.plist
+.DS_Store
+nbproject
+.redcar
+#*#
+*~
+*.sw[po]
+.eprj
+.sass-cache
+.idea

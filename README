@@ -1,0 +1,4 @@
+## Run
+
+$ rake create:map_data
+$ rake
