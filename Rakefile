@@ -12,5 +12,7 @@ namespace :create do
   desc "Create Map Data"
   task :map_data do
     sh "/Library/RubyMotion/bin/ruby data/raw_map_data.rb"
+    sh "plutil -convert binary1 resources/map.plist"
+    App.info "Create", "resources/map.plist"
   end
 end
